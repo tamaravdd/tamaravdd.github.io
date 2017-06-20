@@ -1,0 +1,8 @@
+d 2017-06-19
+d usecda:    	download data from website 
+d Support:   	www.tamaravanderdoes.com/icpsr-cda
+
+p usecda: 	Download data from weebsite 
+
+
+*p wflectures    : Workflow | Support files for lectures.
