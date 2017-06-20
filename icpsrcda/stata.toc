@@ -4,5 +4,3 @@ d Support:   	www.tamaravanderdoes.com/icpsr-cda
 
 p usecda: 	Download data from weebsite 
 
-
-*p wflectures    : Workflow | Support files for lectures.
