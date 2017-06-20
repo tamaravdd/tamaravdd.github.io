@@ -1,0 +1,134 @@
+/* General color */
+html {
+  background-color: #260C0C;
+}
+/* Title */
+#header {
+    width: 100%;
+    background-color: #260C0C;
+    color: white;
+    text-align: left;
+    font-family: 'Fauna One', serif;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+/* General area for the two blocs */
+.container {
+    width: 98%;
+    padding: 10px 10px;
+}
+
+/* Paragraphs*/
+p {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: 'Fauna One', serif;
+  color: black ;
+    margin: 10px;
+}
+
+/* Lists */
+li {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: 'Fauna One', serif;
+}
+
+/* Left block*/
+#first {
+    width: 74%;
+    float: left;
+    height: 100%;
+    background-color: white;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-family: 'Fauna One', serif;
+    color: black;
+}
+
+/* Right block*/
+#second {
+    width: 22%;
+    float: right;
+    height: 270px;
+    background-color: white;
+    color: black;
+    font-size: 14 px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-family: 'Fauna One', serif;
+}
+
+
+#clear {
+    clear: both;
+}
+/* Color of general text plus links not underlined */
+a {
+    color: black;
+    text-decoration: none;
+      color: #C64D3D ;
+      font-weight:bold;
+}
+
+
+/* Titles */
+h1 {
+  margin: 0;
+  padding: 10px;
+  color: #000000;
+  text-align: left;
+  font-family: 'Fauna One', serif;
+  font-size: 22px;
+}
+h2 {
+  margin: 0;
+  padding: 10px;
+  color: #000000;
+  text-align: left;
+  font-family: 'Fauna One', serif;
+  font-size: 18px;
+}
+
+h3 {
+  margin: 0;
+  padding: 10px;
+  color: #000000;
+  text-align: left;
+  font-family: 'Fauna One', serif;
+  font-size: 16px;
+}
+img.resize {
+  max-width:35%;
+  max-height:35%;
+}
+}
+/* The navigation bar */
+.navbar {
+    width: 96%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    padding-right: 10px ;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Fauna One', serif;
+    font-size: 18px;
+}
+.active {
+    background-color: #887D7B;
+    color: white;
+}
