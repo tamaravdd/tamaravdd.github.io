@@ -1,0 +1,7 @@
+d Distribution-date: 06Jun2017
+d groupsbrm | Downloading data for ICPSR CDA | 2017-06-20
+d Tamara van der Does (tvanderd@indiana.edu)
+* ado file 
+f usecda/usecda.ado
+* end of package
+
