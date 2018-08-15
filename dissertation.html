@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+   <script type="text/javascript">
+    var index=0;
+    function changeBanner(){ 
+      [].forEach.call(document.images,function (v,i) { document.images[i].hidden = i!==index});
+      index = (index+1) % document.images.length;
+    }
+    window.onload = function () {setInterval(changeBanner, 1000)};
+  </script>
   <body>
       <div class="navbar">
       <a href="teaching.html"> Teaching</a>
@@ -16,14 +24,13 @@
   <div class='container'>
     <div id="first">
       <h1> <a href="files\DISSERT-full-TvdD-website.pdf" target="_blank" rel="noopener" >Children of Immigrants' Religious Identity and Political Engagement Across Europe</a> </h1>
- <script type="text/javascript">
-    var index=0;
-    function changeBanner(){ 
-      [].forEach.call(document.images,function (v,i) { document.images[i].hidden = i!==index});
-      index = (index+1) % document.images.length;
-    }
-    window.onload = function () {setInterval(changeBanner, 1000)};
-  </script>
+       <div id="wrapper">
+    <div>
+        <img align="right" src="images\DISSERT-FULL-theory-V8.pdf" hspace="10 px" vspace="15 px" />
+      <img align="right" src="images\DISSERT-CILS-stata01a-LGCA-V21-lines.pdf" hspace="10 px" vspace="15 px" />
+      <img align="right" src="images\DISSERT-CILS-stata01a-LGCA-V21-lines.pdf" hspace="10 px" vspace="15 px" />
+    </div>
+  </div>
       
 <p>My dissertation investigates the salience of religion for children of immigrants from all faith traditions during their process of incorporation into European societies. I propose that religion is a source of politicized collective identities. Moreover, I argue that the Muslim identity is distinctive in that it functions as a racialized pan-ethnic identity: an imposed categorization that unifies individuals from different backgrounds to encourage political mobilization. </p>
 <p> I first apply longitudinal methods to analyze the co-evolution of religiosity and national identities among adolescents as they progress through secondary school in four Western European countries. I find that Christian children of immigrants and natives become more secular over time; however, religious identities and religious practices continue to be more important for children of immigrants as compared to natives. Moreover, Muslim children of immigrants increase their participation in religious services all the while developing a stronger attachment to their European national identities. Turning from adolescents to adults, I then use multilevel data from twenty European countries to examine how religiosity among children of immigrants is shaped by regional and national contexts. Except for Muslims, the religiosity of children of immigrants is lower in regions with lower native religiosity. However, both Muslim and Orthodox children of immigrants are more religious in countries with stronger multiculturalism and anti-discrimination policies. Finally, I examine the relationship between religion and political engagement among adult children of immigrants across Europe. I find that children of immigrants’ involvement with religious communities and sense of group consciousness are both associated with more political acts. The relationship between religious attendance and political participation is stronger among Muslims and among children of immigrants living countries with broader multiculturalism policies. </p>
