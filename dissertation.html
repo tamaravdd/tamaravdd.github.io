@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-   <script type="text/javascript">
+  <head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+  <script type="text/javascript">
     var index=0;
     function changeBanner(){ 
       [].forEach.call(document.images,function (v,i) { document.images[i].hidden = i!==index});
@@ -8,6 +11,7 @@
     }
     window.onload = function () {setInterval(changeBanner, 1000)};
   </script>
+</head>
   <body>
       <div class="navbar">
       <a href="teaching.html"> Teaching</a>
