@@ -106,6 +106,10 @@ img.resize {
   max-width:35%;
   max-height:35%;
 }
+img.resize2 { 
+  max-width:60%;
+  max-height:60%;
+}
 }
 /* The navigation bar */
 .navbar {
