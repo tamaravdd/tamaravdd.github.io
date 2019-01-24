@@ -143,6 +143,7 @@ img.resize {
 /* Dropdown button */
 .dropdown .dropbtn {
   font-size: 18px; 
+  font-family: 'Fauna One', serif;
   border: none;
   outline: none;
   color: #f2f2f2;
