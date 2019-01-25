@@ -140,6 +140,8 @@ img.resize {
 .subnav {
   float: right;
   overflow: hidden;
+  background-color: #333;
+  width: 75%;
 }
 
 /* Subnav button */
@@ -179,8 +181,8 @@ img.resize {
 .subnav-content a {
   float: right;
   color: white;
- background-color: #333;
-  text-decoration: none;
+   background-color: #333;
+   text-decoration: none;
 }
 
 /* Add a grey background color on hover */
