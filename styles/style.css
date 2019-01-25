@@ -151,7 +151,7 @@ img.resize {
   text-decoration: none;
   font-family: 'Fauna One', serif;
   font-size: 18px;
-  /*border: none; */ 
+  border: none;
   /* outline: none; */
   background-color: inherit;
   margin: 0;
