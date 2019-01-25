@@ -173,14 +173,16 @@ img.resize {
   z-index: 1;
   padding-right: 10px ; /* to have options right justified */ 
   top: 50px ; /* to have it below the other stuff */ 
+  background-color: #333 ;
 }
 
 /* Style the subnav links */
 .subnav-content a {
   float: right;
-  color: white;
-   background-color: #333;
+  color: white ;
    text-decoration: none;
+   font-family: 'Fauna One', serif;
+    font-size: 16px;
 }
 
 /* Add a grey background color on hover */
