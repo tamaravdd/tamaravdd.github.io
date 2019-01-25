@@ -167,13 +167,12 @@ img.resize {
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   display: none;
-  position: absolute; /* switched from absolute to relative to see what happens maybe also try fixed?*/ 
+  position: absolute; 
   right: 0;
   width: 100%;
   z-index: 1;
   padding-right: 10px ; /* to have options right justified */ 
   top: 50px ; /* to have it below the other stuff */ 
-  background-color: #333;
 }
 
 /* Style the subnav links */
