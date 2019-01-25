@@ -107,6 +107,7 @@ img.resize {
   max-height:35%;
 }
 }
+
 /* The navigation bar */
 .navbar {
     width: 96%;
@@ -168,7 +169,6 @@ img.resize {
   display: none;
   position: absolute; /* switched from absolute to relative to see what happens maybe also try fixed?*/ 
   right: 0;
-  background-color: #333;
   width: 100%;
   z-index: 1;
   padding-right: 10px ; /* to have options right justified */ 
@@ -179,6 +179,7 @@ img.resize {
 .subnav-content a {
   float: right;
   color: white;
+ background-color: #333;
   text-decoration: none;
 }
 
