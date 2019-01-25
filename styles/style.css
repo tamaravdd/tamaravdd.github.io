@@ -182,7 +182,7 @@ img.resize {
   color: white ;
    text-decoration: none;
    font-family: 'Fauna One', serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /* Add a grey background color on hover */
@@ -209,4 +209,15 @@ figure {
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
+}
+
+/* image also proportional*/ 
+.holder {   
+  width: auto;
+  display: inline-block;    
+}
+
+.holder img {
+  width: 30%; /* Will shrink image to 30% of its original width */
+  height: auto;    
 }
