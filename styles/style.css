@@ -166,12 +166,14 @@ img.resize {
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   display: none;
-  position: relative; /* switched from absolute to relative to see what happens maybe also try fixed?*/ 
-  left: 0;
+  position: fixed; /* switched from absolute to relative to see what happens maybe also try fixed?*/ 
+  right: 0;
   background-color: #333;
   width: 100%;
   z-index: 1;
   padding-right: 10px ; /* to have options right justified */ 
+  /* top: 0; /* Position the navbar at the top of the page */*/ 
+
 }
 
 /* Style the subnav links */
