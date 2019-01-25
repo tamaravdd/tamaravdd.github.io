@@ -172,8 +172,8 @@ img.resize {
   width: 100%;
   z-index: 1;
   padding-right: 10px ; /* to have options right justified */ 
-  top: 50px /* to have it below the other stuff */ 
-    background-color: #333;
+  top: 50px ; /* to have it below the other stuff */ 
+  background-color: #333;
 }
 
 /* Style the subnav links */
