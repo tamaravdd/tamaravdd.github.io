@@ -145,7 +145,7 @@ img.resize {
 /* Subnav button */
 .subnav .subnavbtn {
   float: right;
-  display: block;
+  /* display: block;*/ 
   color: #f2f2f2;
   text-align: left;
   padding: 14px 16px;
