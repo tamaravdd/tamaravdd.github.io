@@ -140,8 +140,6 @@ img.resize {
 .subnav {
   float: right;
   overflow: hidden;
-  background-color: #333;
-  width: 75%;
 }
 
 /* Subnav button */
@@ -171,7 +169,7 @@ img.resize {
   display: none;
   position: absolute; 
   right: 0;
-  width: 75%;
+  /*width: 75%;*/
   z-index: 1;
   padding-right: 10px ; /* to have options right justified */ 
   top: 50px ; /* to have it below the other stuff */ 
