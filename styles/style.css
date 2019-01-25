@@ -112,8 +112,8 @@ img.resize {
     width: 96%;
     overflow: hidden;
     background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
+    /*position: fixed; /* Set the navbar to fixed position */
+    /*top: 0; /* Position the navbar at the top of the page */
     padding-right: 10px ;
 }
 
@@ -152,7 +152,7 @@ img.resize {
   font-family: 'Fauna One', serif;
   font-size: 18px;
   border: none;
-  /* outline: none; */
+  outline: none; 
   background-color: inherit;
   margin: 0;
 }
@@ -166,13 +166,12 @@ img.resize {
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   display: none;
-  position: fixed; /* switched from absolute to relative to see what happens maybe also try fixed?*/ 
+  position: absolute; /* switched from absolute to relative to see what happens maybe also try fixed?*/ 
   right: 0;
   background-color: #333;
   width: 100%;
   z-index: 1;
   padding-right: 10px ; /* to have options right justified */ 
-  /* top: 0; /* Position the navbar at the top of the page */*/ 
 
 }
 
