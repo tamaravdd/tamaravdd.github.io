@@ -18,14 +18,19 @@
       text-align: center;
       background-size: 20%; /* adjust this value to resize your image */
       background-repeat: no-repeat; /* prevent the image from repeating */
-
+      position: relative; /* add this line to create space image and header */
     }
 
 /* Increase the font size and un-bold the h1 element */
     .header h1 {
       font-family: 'Akzidenz', sans-serif;
       font-size: 60px;
-      font-weight: normal;    
+      font-weight: normal;
+      margin-top: 20px; /* adjust this value to create less space between h1 and paragraph */
+      position: absolute;  /* add this line to create space image and header */
+      bottom: 0;  /* add this line to create space image and header */
+      left: 0%;  /* add this line to create space image and header */
+      transform: translateX(-50%); /* add this line to create space image and header */
     }
 
 /* Change style of links */ 
